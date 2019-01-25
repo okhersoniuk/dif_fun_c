@@ -12,7 +12,10 @@ int main(int argc, char **argv)
 
 	a = 0;
 	if (argc != 2)
+	{
+		ft_putchar('a');
 		ft_putchar('\n');
+	}
 	else 
 	{
 		while (argv[1][a] != '\0')
